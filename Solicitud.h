@@ -14,7 +14,6 @@ class Solicitud
         friend std::istream &operator >>(std::istream &,Solicitud &);
         friend std::ostream &operator <<(std::ostream &,Solicitud &);
         bool operator==(Solicitud&);
-        bool operator>(Solicitud&);
 };
 
 #endif // SOLICITUD_H
