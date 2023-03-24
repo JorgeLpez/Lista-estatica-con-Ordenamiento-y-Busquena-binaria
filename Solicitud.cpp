@@ -41,11 +41,3 @@ bool Solicitud::operator==(Solicitud& c)
     }
     return false;
 }
-
-bool Solicitud::operator>(Solicitud& c)
-{
-    if(c.NombreAlm>NombreAlm && c.NombreCarr>NombreCarr && c.NombrePre>NombrePre&& c.Prom>Prom){
-        return true;
-    }
-    return false;
-}
